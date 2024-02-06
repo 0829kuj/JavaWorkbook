@@ -40,9 +40,9 @@ public class Question07 {
     private static Numbers StrConvertNum(String num1, String num2, String num3, String num4) {
         
         int intNum = Integer.parseInt(num1);
-        Long longNum = Long.parseLong(num2);
-        Float floatNum = Float.parseFloat(num3);
-        Double doubleNum = Double.parseDouble(num4);
+        long longNum = Long.parseLong(num2);
+        float floatNum = Float.parseFloat(num3);
+        double doubleNum = Double.parseDouble(num4);
         
         return new Numbers(intNum, longNum, floatNum, doubleNum);
     }
