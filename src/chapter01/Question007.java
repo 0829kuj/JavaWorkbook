@@ -24,7 +24,7 @@ class Numbers {
     }
 }
 
-public class Question07 {
+public class Question007 {
     // 007. 문자열을 int, long, float, double로 변환
     public static void main(String[] args) {
 

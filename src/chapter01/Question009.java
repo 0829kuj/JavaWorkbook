@@ -1,6 +1,6 @@
 package chapter01;
 
-public class Question09 {
+public class Question009 {
     // 009. 구분자로 여러 문자열 합치기: 주어진 문자열을 주어진 구분자로 합치는 프로그램을 작성하라.
     public static void main(String[] args) {
         String str1 = "안녕하세요";

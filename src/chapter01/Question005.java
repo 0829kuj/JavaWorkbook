@@ -18,7 +18,7 @@ class Result {
     }
 }
 
-public class Question05 {
+public class Question005 {
     //005. 모음과 자음 세기: 주어진 문자열에서 모음과 자음 개수를 세는 프로그램을 작성하라. 대상은 자음이 5개(a, e, i, o, u)인 영어다.
     public static void main(String[] args) {
         String str = "eghslejrljel";

@@ -1,6 +1,6 @@
 package chapter01;
 
-public class Question03 {
+public class Question003 {
     // 003. 글자와 단어 뒤집기: 각 단어의 글자를 뒤집는 프로그램과 각 단어의 글자와 각 단어를 뒤집는 프로그램을 작성하라.
     public static void main(String[] args) {
         String str1 = "사과";
