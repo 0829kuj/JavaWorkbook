@@ -5,4 +5,18 @@ public class Question014 {
     public static void main(String[] args) {
         String str = "김수한무거북이와두루미삼천갑사동박삭치치카포사리사리센타워리워리세프리깡";
     }
+
+    private static String findMaxCountChar(String str) {
+        char[] chars = str.toCharArray();
+        int cnt = 0;
+        for (int i = 0; i < chars.length; i++) {
+
+            for (int j = i + 1; j < chars.length; j++) {
+                if (chars[i] == chars[j]) {
+                    cnt++;
+                }
+            }
+        }
+        return "";
+    }
 }
